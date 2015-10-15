@@ -1,0 +1,88 @@
+#teacher{
+	padding-top:70px;
+	width:100%;
+	height:150px;
+}
+.teacher-img{
+	width:150px;
+	height:150px;
+/*	margin-top:45px;*/
+	padding-right:70px;
+	float:left;
+}
+#teacher-info{
+/*	margin-top:45px;*/
+	height:150px;
+	width:185px;
+	padding-right:50px;
+	float:left;
+}
+.teacher-name{
+	color: #E7A153;
+	font-size: 18px;
+	line-height: 36px;
+	font-weight: bold;
+	font-weight: bolder;
+}
+.teacher-title{
+	color: #b9b9b9;
+	font-size: 14px;
+}
+.teacher-contact{
+	margin-top:8px;
+	color: #3b3b3b;
+	font-size: 15px;
+	line-height: 24px;
+}
+#teacher-abstract{
+	/*background:#ccc;*/
+	border-left:2px solid #E7A153;
+	width:375px;
+/*	margin-top:45px;*/
+	height:110px;
+	float:left;
+	padding:20px 25px 20px 50px;
+}
+#teacher-abstract p{
+	font-size:15px;
+}
+.splitline{
+	width:900px;
+	background:#E7A153;
+	height:3px;
+	margin:100px 0 100px 0;
+}
+.teacher-artical{
+	width:100%;
+}
+.teacher-artical-info{
+	padding-right:140px;
+	margin-bottom:40px;
+}
+.teacher-brief{
+	width:280px;
+	height:100px;
+	margin:20px 30px 20px 0;
+	/*border:1px dotted #E7A153;*/
+	float:left;
+}
+.teacher-brief img{
+	float:left;
+	width:70px;
+	height:70px;
+	padding:15px; 
+}
+.teacher-brief-name{
+	width:160px;
+	padding:12px 0 5px 15px;
+	font-size:16px;
+	color:#E7A153;
+	float:left;
+}
+.teacher-brief p{
+	color:#ccc;
+	width:150px;
+	font-size:16px;
+	float:left;
+	padding:0 15px 15px 15px;
+}

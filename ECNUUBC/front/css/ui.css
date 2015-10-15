@@ -1,0 +1,42 @@
+ /* @start */
+/* Download by http://www.jb51.net
+  *	********** 移除元素的   padding, margin  **********
+  */
+/* 
+ html, body, div, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dt, dd, p, blockquote, 
+ pre, form, fieldset, table, th, td, input, textarea { margin: 0; padding: 0; }
+
+ */
+
+ /* 
+  *	********** 定义基本元素的样式 	 默认字体：宋体	  **********
+  */
+ /* 
+body { font-family:\5B8B\4F53,Arial Narrow,arial,serif; background-color: #fff;  font-size: 12px;}
+ img{ vertical-align: top; border-width:0; }
+ ol,ul { list-style: none;}
+ li{ list-style-type: none;}
+ caption,th { text-align: left;}
+ address,caption,cite,code,dfn,ins,em,th,var { font-weight:normal; font-style:normal;} 
+ input,textarea{ font-size: 12px; padding: 2px;}
+ a{ color: #06c; }
+ a:hover{ color: #f00; }
+ /* @end */
+ */
+ 
+ #slide-box { margin: 0 auto; width: 600px;  height: 400px; }
+ #slide-box .thumb-wrap{ height: 365px;}
+/* 
+ #slide-box .tit-ctrl{ height: 30px; line-height: 30px; }
+ #slide-box .ctrl{ float: right; width: 65px; margin-top: 4px; }
+ #slide-box .ctrl .num{ float: left; margin: 2px 8px 0 8px;  padding: 0px 10px; line-height: 16px; background-color: #333; color: #fff; font-family: Arial, Helvetica, sans-serif; -webkit-border-radius: 4px; -moz-border-radius: 4px; font-size: 10px;}
+ #slide-box .ctrl .num strong { font-size: 12px; }
+ */
+ #slide-box .title{ float: left; margin-left: 6px;}
+ #slide-box .title a{ font-weight: bold; font-size: 14px; }
+ #slide-box .shadow{ display: none; height: 8px; background-color: #000;  }
+ .tl,.tr{ opacity:0.5;position: absolute; bottom: 160px;margin-top: 6px; cursor: pointer; z-index:21; }
+ .tl{left:0;}
+ .tr{ right:0; }
+ #slide-box .description{ height: 40px; line-height: 20px; padding: 0 10px 5px 10px; clear: both; color: #fff; }
+

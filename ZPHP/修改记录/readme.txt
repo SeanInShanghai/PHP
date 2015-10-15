@@ -1,0 +1,3 @@
+2014/7/12
+目的：保存姓名和关键字
+修改：在数据库中增加一张表格zbp_addtopost,通过修改c_system_event.php中PostArticle方法，返回插入道数据库的log_id，根据这个log_id

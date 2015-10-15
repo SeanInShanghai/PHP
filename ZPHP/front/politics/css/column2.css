@@ -1,0 +1,149 @@
+#column2{
+	padding-left:70px;
+	float:left;
+	width:322px;
+	margin:60px 4px 39px;
+}
+.box-border{
+	border: 2px solid black;
+	width:100%;
+	height:auto;
+}
+.box-border-content{
+	width:283px;
+	margin:0 auto;
+	padding-top:25px;
+	padding-bottom:10px;
+}
+
+fieldset legend {
+color: #666;
+padding: 0 5px;
+}
+
+.search {
+	width:100%;
+	height:50px;
+	margin-bottom:20px;
+}
+.search form{
+	border: 1px solid #ccc;
+	}
+.search input{
+	padding-left:10px;
+	height:28px;
+	width:240px;
+	border:0px;
+}
+
+.search-btn{
+	border:0px;
+	padding:5px;
+	width:18px;
+	height:18px;
+	background:url(../images/search.png);
+	background-size:18px 18px;
+	background-repeat:no-repeat;
+}
+/*#label #professor #popular-artical{
+	width:100%;
+	max-height:250px;
+}*/
+#popular-artical{
+	margin-bottom:35px;
+}
+
+#popular-artical ul{
+	list-style: disc inside;
+	color:#E7A153;
+	list-style-position:outside;
+	padding-left:18px;
+}
+
+.popular-artical-title a{
+	line-height:28px;
+	color:#777;
+}
+.label-background{
+	background:#C1B797;
+	height:40px;
+	width:80px;
+	position:relative;
+	float:left;
+	text-align: center;
+	margin-bottom:21.5px;
+}
+
+.label-background a{
+	letter-spacing: normal;
+	line-height:40px;
+}
+.label-left{
+	margin-right:21.5px;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+/* End hide from IE-mac */
+
+.splitline{
+	width:100%;
+	background:#E7A153;
+	height:3px;
+	margin:20px 0 30px 0;
+}
+.splitline-grey{
+	width:100%;
+	background:#eee;
+	height:1px;
+	margin:20px 0 30px 0;
+}
+.professor{
+	width:70px;
+	text-align:center;
+	float:left;
+	margin-bottom:20px;
+}
+.professor a{
+	color:#777;
+}
+.professor a img{
+	margin-bottom:8px;
+}
+.professor-left{
+	margin-right:34px;
+}
+
+.author{
+	width:100%;
+	height:auto;
+	margin-bottom:25px;
+}
+.author-name{
+	font-size: 16px;
+	line-height: 28px;
+	color:#E7A153;
+	text-align:center;
+	margin-bottom:5px;
+}
+.author-intro{
+	width:auto;
+	font-size: 16px;
+	line-height: 28px;
+	color:#3b3b3b;
+}
+.author-img{
+	margin:0 auto 20px auto;
+	width:100px;
+	
+}
+.author-info{
+	width:100%;
+}
